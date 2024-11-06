@@ -3,6 +3,6 @@ Type=Application
 Name=GPU Passthrough Qt
 Comment=Configure VFIO GPU Passthrough
 Exec=sudo -E /usr/bin/gpu-passthrough-qt
-Icon=/usr/share/icons/vfio-icon.png
+Icon=/usr/share/icons/vfio-icon-qt.png
 Terminal=true
 Categories=System;Administration;
