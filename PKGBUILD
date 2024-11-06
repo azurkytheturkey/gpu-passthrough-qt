@@ -14,7 +14,6 @@ sha256sums=('SKIP'
             'SKIP'
             'SKIP') 
 package() {
-    cd "$srcdir/$pkgname-$pkgver"
     install -Dm755 "gpu-passthrough-qt.py" "$pkgdir/usr/bin/gpu-passthrough-qt"
     install -Dm644 "$srcdir/gpu-passthrough-qt.desktop" "$pkgdir/usr/share/applications/gpu-passthrough-qt.desktop"
     install -Dm644 "$srcdir/vfio-icon-qt.png" "$pkgdir/usr/share/icons/vfio-icon-qt.png"
