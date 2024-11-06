@@ -7,9 +7,9 @@ arch=('any')
 url="https://github.com/yourusername/gpu-passthrough-qt"
 license=('GPL3')
 depends=('python' 'python-pyqt5' 'pciutils' 'sudo')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/yourusername/gpu-passthrough-qt/archive/v$pkgver.tar.gz")
-sha256sums=('SKIP')
-
+source=("gpu-passthrough-qt.py"
+        "gpu-passthrough-qt.desktop"
+        "vfio-icon.png") sha256sums=('SKIP')
 package() {
     cd "$srcdir/$pkgname-$pkgver"
     install -Dm755 "gpu-passthrough-qt.py" "$pkgdir/usr/bin/gpu-passthrough-qt"
