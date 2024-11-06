@@ -9,7 +9,7 @@ license=('GPL3')
 depends=('python' 'python-pyqt5' 'pciutils' 'sudo')
 source=("gpu-passthrough-qt.py"
         "gpu-passthrough-qt.desktop"
-        "vfio-icon.png")
+        "vfio-icon-qt.png")
 sha256sums=('SKIP')
 package() {
     cd "$srcdir/$pkgname-$pkgver"
