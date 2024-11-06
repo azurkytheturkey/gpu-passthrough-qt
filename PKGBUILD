@@ -10,7 +10,9 @@ depends=('python' 'python-pyqt5' 'pciutils' 'sudo')
 source=("gpu-passthrough-qt.py"
         "gpu-passthrough-qt.desktop"
         "vfio-icon-qt.png")
-sha256sums=('SKIP')
+sha256sums=('SKIP'
+            'SKIP'
+            'SKIP') 
 package() {
     cd "$srcdir/$pkgname-$pkgver"
     install -Dm755 "gpu-passthrough-qt.py" "$pkgdir/usr/bin/gpu-passthrough-qt"
