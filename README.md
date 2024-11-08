@@ -21,7 +21,7 @@ please write if you have issues
 
 `git clone https://github.com/azurkytheturkey/gpu-passthrough-qt`
 
-`cd gpu-passthrough-gtk`
+`cd gpu-passthrough-qt`
 
 `makepkg -si`
 
