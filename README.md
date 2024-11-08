@@ -19,7 +19,7 @@ mkinitcpio = tested |
 
 please write if you have issues
 
-`git clone https://github.com/azurkytheturkey/gpu-passthrough-gtk`
+`git clone https://github.com/azurkytheturkey/gpu-passthrough-qt`
 
 `cd gpu-passthrough-gtk`
 
